@@ -1,12 +1,15 @@
 #Beginning of program
 
+
 #Importing modules
 import mysql.connector
 from math import floor, ceil
 
+
 #Establishing connection
 connect = mysql.connector.connect(host = 'localhost', user = 'root', passwd = '1234', database = 'INVOICES')
 cursor = connect.cursor()
+
 
 #Function definitions
 
